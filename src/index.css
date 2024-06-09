@@ -1,0 +1,85 @@
+/* 기본 설정 */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* 링크 스타일 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* 게시판 스타일 */
+.board-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 게시물 목록 스타일 */
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+.post-item {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.post-item h3 {
+    margin-top: 0;
+}
+.post-item p {
+    margin-bottom: 0;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+    width: 300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 헤더 아이콘 스타일 */
+.header-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* 반응형 스타일 */
+@media screen and (max-width: 768px) {
+    .board-container {
+        padding: 10px;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
